@@ -21,9 +21,12 @@ const Dashdiv = styled.div`
    @media(min-width: 800px){
       display: inline;
       flex-basis: 30;
-      height: 100vh;
+      height: 97vh;
       width: 30vw;
-      background-color: #120078;
+      background-color: #000000;
+      -webkit-box-shadow: 5px 5px 15px 5px #6031CA; 
+      box-shadow: 5px 5px 15px 5px #6031CA;
+      margin: 1rem 0 1rem 1rem;
       a {
          text-decoration: none;
          color: white;
@@ -72,7 +75,7 @@ const Header = styled.header`
    justify-content: center;
    align-items: center;
    color: #FECD1A;
-   border-bottom: .3rem outset #FECD1A;
+   border-bottom: .3rem inset #FECD1A;
    `
 
 const MyImage = styled.img` 
@@ -114,7 +117,9 @@ const MyIntroDev= styled.h2`
 const LinkContainer = styled.div`
    padding-left: 1rem; 
    padding-right: 1rem;
+   margin-bottom: 1rem;
    display: flex;
+   color: #FECD1A;
    `
 
 const LinkIconContainer = styled.div` 
@@ -137,9 +142,8 @@ const MenuLinks = styled.div`
       padding: 1rem;
       font-size: 2rem;
       :hover{
-         background: #9D0191;
-         border-right: .5rem solid #FECD1A;
-      }
+         -webkit-box-shadow: 5px 5px 15px 1px #6031CA; 
+box-shadow: 5px 5px 15px 1px #6031CA;
    }
 `
 

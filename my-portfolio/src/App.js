@@ -14,7 +14,7 @@ const AppDiv = styled.div`
 margin: 0;
 padding: 0;
   height: 100vh;
-  background: #9D0191;
+  background: #000000;
   display: flex;
   
   `

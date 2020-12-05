@@ -6,7 +6,7 @@ const AboutDiv = styled.div`
    margin-left: 20rem;
    `
 const Header = styled.div` 
-   background: #120078;
+   background: #9b5b96;
    font-size: 3rem;
    `
 
