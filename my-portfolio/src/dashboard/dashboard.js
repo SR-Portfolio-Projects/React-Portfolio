@@ -1,4 +1,4 @@
-import { Route } from 'react-router';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -76,7 +76,7 @@ const Header = styled.header`
    align-items: center;
    color: #FECD1A;
    border-bottom: .3rem inset #FECD1A;
-   `
+`
 
 const MyImage = styled.img` 
    width: 10rem;
@@ -84,7 +84,7 @@ const MyImage = styled.img`
    border-radius: 5rem;
    -webkit-border-radius: 5rem;
    -moz-border-radius: 5rem;
-   `
+`
 
 const IntroDiv = styled.div` 
    /* flex-basis: 70%; */
@@ -143,9 +143,11 @@ const MenuLinks = styled.div`
       font-size: 2rem;
       :hover{
          -webkit-box-shadow: 5px 5px 15px 1px #6031CA; 
-box-shadow: 5px 5px 15px 1px #6031CA;
+         box-shadow: 5px 5px 15px 1px #6031CA;
+   }
    }
 `
+
 
 const BottomIcons = styled.div`
    font-size: 2rem;
@@ -157,10 +159,12 @@ const BottomIcons = styled.div`
       cursor: pointer;
    }
    `
-const Contents = styled.div` 
+/* const Contents = styled.div` 
  display:flex;
  flex-direction: column;
- `
+` */
+
+
 
 function Dashboard() {
      return (

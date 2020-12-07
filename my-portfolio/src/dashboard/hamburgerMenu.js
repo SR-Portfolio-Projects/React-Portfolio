@@ -18,11 +18,12 @@ const HamburgerButton = styled.div`
     position: relative;
     z-index: 99;
     .fa-bars {
-    color: #FECD1A;
+    color: #6031CA;
     font-size: 4rem;
     cursor: pointer;
-    background: #120078; 
+    background: #000000; 
     padding: .5rem;
+    border: .2rem solid #6031CA;
     }`
 
 const CloseButton = styled.div` 
@@ -34,7 +35,7 @@ const CloseButton = styled.div`
     color: #FECD1A;
     font-size: 4rem;
     cursor: pointer;
-    background: #120078; 
+    background: #6031CA; 
     width: 50vw;
     padding: .9rem 0rem .9rem 0rem;
     @media(min-width: 400px) {
@@ -44,7 +45,7 @@ const CloseButton = styled.div`
         width: 30vw;
     }
 }
-    `
+`
 
 const HamburgerMenuNav = styled.nav` 
     width: 50vw;
@@ -64,7 +65,7 @@ const HamburgerMenuNav = styled.nav`
     `
 
 const MenuList = styled.ul` 
-    background: #120078;
+    background: #6031CA;
     padding: 0;
     margin-top: 0rem;
     font-size: 2.5rem;
@@ -76,7 +77,7 @@ const MenuListItem = styled.li`
     list-style: none;
     margin: 0 auto;
     width: 99%;
-    border-bottom: 1px solid #6f4a8e;
+    border-bottom: 1px solid #FECD1A;
     `
 
 const MenuListItemLink = styled.a` 

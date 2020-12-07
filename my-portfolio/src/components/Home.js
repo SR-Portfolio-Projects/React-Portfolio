@@ -1,40 +1,50 @@
 import React from 'react';
 import styled from "styled-components";
-import Codebg from '../assets/codebg.png'
 import Nymph from '../assets/trenyph2.png';
 
 
 const HomeDiv = styled.div` 
-   /* display: flex; */
    position: relative;
-    `
-
-const Text = styled.div`
-    padding: 10rem 0 0 5rem;
-    margin-top: 40rem;
-    
-    
-
-    h2 {
-       font-size: 5rem;
-       color: #FECD1A;
-    }
-    p {
-       font-size: 2rem;
-       color: #FECD1A;
-    }
-    `
+`
 
 const BgImage = styled.div`
-   width: 50%;
-   height: 100vh;
-   border: 2px solid red;
+   width: 100%;
+   height: 50vh;
+   /* border: 2px solid red; */
    background-image: url(${Nymph});
    background-repeat: no-repeat;
-   background-size: 40rem 40rem;
+   background-size: 30rem 30rem;
    position: absolute;
-   margin: 0 0 0 5rem;
-  `
+   margin: 6rem 0 0 0;
+`
+
+
+const Text = styled.div`
+   padding: 10rem 0 0 2rem;
+   margin-top: 22rem;
+`
+
+const HomeHeader = styled.h2`
+   font-size: 4rem;
+   color: #FECD1A;
+   margin: 0 0 2rem 0;
+   span {
+      color: #6031CA;
+   }
+`
+
+const MyDescription = styled.div` 
+   font-size: 2rem;
+   color: #FECD1A;
+   p{
+      margin: 0 0 1rem 0;
+   }
+   span {
+      color: #6031CA;
+   }
+   
+`
+
 function Home() {
      return (
         <HomeDiv>
@@ -42,9 +52,14 @@ function Home() {
 
 </BgImage>
            <Text>
-         <h2>Hey, I'm Shannon.</h2>
-        <p>Full Stack Web Developer learning, building and teaching <br/>from San Diego, Califonia. I turn ideas into applications and websites</p>
-        <p>Come on in and take a look around, dont forget to connect with me while you are here!!!</p>
+         <HomeHeader>Hey, <br/>I'm <span>Shannon</span></HomeHeader>
+         <MyDescription>
+        <p>Full Stack Web Developer
+           <br/>learning, building and teaching
+           <br/>from San Diego, Califonia.I turn ideas into applications and websites.
+        </p>
+        <p><span>Come on in and take a look around, dont forget to connect with me while you are here!!!</span></p>
+        </MyDescription>
          </Text>
          
         </HomeDiv>

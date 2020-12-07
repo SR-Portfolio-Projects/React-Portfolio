@@ -32,7 +32,7 @@ function App() {
       </header>
       <Switch>
         {/* <Route path='/' component={Dashboard} /> */}
-            <Route path="/home" component= { Home } />
+            <Route path="/" component= { Home } />
             
             <Route path="/projects" component={ Projects} />
 
