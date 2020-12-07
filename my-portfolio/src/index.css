@@ -45,11 +45,13 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	background-color: rgb(83, 3, 83);
 }
 
 /* My Code */
 html {
   font-size: 65.2%;
+  background: #000000;
 }
 
 
